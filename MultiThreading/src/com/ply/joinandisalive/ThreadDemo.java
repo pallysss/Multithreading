@@ -53,7 +53,7 @@ public class ThreadDemo {
 		thread2.join();
 		System.out.println("Thread1 Status ="+thread1.isAlive()); // check the status of thread1 after join
 		/**
-		 * Bye will be hadled by main Thread and 'll waiting until thread1 and thread2 executed because the join function
+		 * Bye will be handled by main Thread and it'll be waiting until thread1 and thread2 executed because the join function
 		 */
 		System.out.print("Bye");
 
